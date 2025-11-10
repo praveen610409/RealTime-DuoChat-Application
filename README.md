@@ -5,21 +5,21 @@ Users can chat in the same browser window, with messages displayed on the left o
 
 ## Features ✅
 
-Two chat boxes: User A and User B
+#### Two chat boxes: User A and User B
 
-Right side: Your own messages (green bubble)
+#### Right side: Your own messages (green bubble)
 
-Left side: Other user messages (blue bubble)
+#### Left side: Other user messages (blue bubble)
 
-Scrollable chat area
+#### Scrollable chat area
 
-Responsive design
+#### Responsive design
 
-Press Enter to send messages
+#### Press Enter to send messages
 
-Color-coded messages for clarity
+#### Color-coded messages for clarity
 
-Works without any backend
+#### Works without any backend
 
 ## Demo
 
@@ -28,20 +28,20 @@ Open index.html in your browser to try it out.
 
 ## Installation 🛠️
 
-### Clone the repository:
+#### Clone the repository:
 
-git clone <https://github.com/praveen610409/RealTime-DuoChat-Application.git>
+###### git clone <https://github.com/praveen610409/RealTime-DuoChat-Application.git>
 
 
-### Open the folder and launch index.html in your browser.
+#### Open the folder and launch index.html in your browser.
 
 ## Usage 💬
 
-### Type a message in User A or User B input box.
+#### Type a message in User A or User B input box.
 
-### Press Enter or click Send.
+#### Press Enter or click Send.
 
-### Messages appear as follows:
+#### Messages appear as follows:
 
     Right (Green): Your own messages
 
@@ -56,19 +56,20 @@ Chat-App/
 
 ## Customization 🎨
 
-### Change bubble colors in style.css:
+#### Change bubble colors in style.css:
 
     .userA-message { background-color: green; }
     .userB-message { background-color: blue; }
 
 
-### Adjust chat box size, font, or browser background in style.css.
+#### Adjust chat box size, font, or browser background in style.css.
 
 ## Demo 🖼️
 
 Screenshot of the app in action:
 
-![Image](screenshots/chat-demo.png)
+![Image](https://github.com/praveen610409/RealTime-DuoChat-Application/blob/61b2c46e923db31763b7bcfa87f332aa910de4ca/Image1.png)
+![Image2](https://github.com/praveen610409/RealTime-DuoChat-Application/blob/61b2c46e923db31763b7bcfa87f332aa910de4ca/Image2.png)
 
 
 ## Author ✒️
