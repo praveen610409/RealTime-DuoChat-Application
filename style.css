@@ -1,0 +1,133 @@
+body {
+    background: aqua; /* aqua to white gradient */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.chat-wrapper {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chat-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.User-A {
+    background : rgb(199, 21, 21);
+}
+
+.User-B {
+    background: rgb(35, 193, 42)
+}
+
+.chat-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-A {
+    background-color: rgb(241, 184, 193);
+}
+
+.box-B {
+    background-color: rgb(148, 213, 253);
+}
+.message {
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 12px;
+    max-width: 70%;
+    word-wrap: break-word;
+    color: #fff;
+    display: inline-block;
+}
+
+.message.self {
+    align-self: flex-end;
+    background-color: #28a745; /* green */
+}
+
+.message.other {
+    align-self: flex-start;
+    background-color: #007bff; /* blue */
+}
+
+.time {
+    display: block;
+    font-size: 0.7rem;
+    color: #fff;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.input-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    border: 2px solid black;
+    background: rgb(243, 243, 193);
+    font-weight: 600;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #007bff;
+    color: black;
+    cursor: pointer;
+}
+
+
+.button-A {
+    background: rgb(183, 243, 93);
+    font-weight: 600;
+}
+
+.button-B {
+    background-color: rgb(241, 71, 71);
+    font-weight: 600;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 650px) {
+    .chat-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
